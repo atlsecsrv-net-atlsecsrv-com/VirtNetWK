@@ -1,7 +1,7 @@
 name: Latest Release Monitor
 on:
   schedule:
-    - cron: 0/5 * * * *
+    - cron: "microsoft/vscode-github-triage-actions"
   repository_dispatch:
     types: [trigger-latest-release-monitor]
 
